@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 6 - Pagina 2</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="index.html">Lab6</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="pagina1.html">Pagina 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina2.html">Pagina 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">Pagina 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">La Transformación del Pececito Sonriente</h1>
+        
+        <p>En cuestión de segundos, la escena pasó de maravillosa a terrorífica. La sonrisa encantadora del pececito se transformó en una mueca siniestra, revelando hileras de dientes afilados como cuchillas. Sus ojos, antes brillantes y amigables, se volvieron negros como el vacío del espacio profundo.</p>
+
+        <img src="img/dientes.png" alt="transformacion" class="img-fluid w-25 d-block mx-auto">
+        
+        <div class="progress mb-3">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Nivel de Peligro: 75%</div>
+        </div>
+        
+        <p>El Dr. Martínez gritó órdenes para alejarse, pero era demasiado tarde. Con una velocidad sobrenatural, el Pececito Sonriente, ahora convertido en una bestia voraz, embistió contra el submarino. El impacto sacudió la nave, haciendo que los equipos se tambalearan y las alarmas comenzaran a sonar.</p>
+        
+        <p>Mientras la tripulación luchaba por mantener el control, pudieron ver a través de las ventanillas cómo otros seres marinos huían despavoridos. Incluso un enorme calamar gigante, conocido por ser uno de los depredadores más temidos del océano profundo, se alejaba a toda velocidad, sus tentáculos agitándose frenéticamente en el agua oscura.</p>
+        
+        <div class="card text-center">
+            <div class="card-header bg-danger text-white">
+                Alerta de Emergencia
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">¡Peligro Inminente!</h5>
+                <p class="card-text">Se ha detectado una amenaza crítica. Todos los submarinos y embarcaciones deben evacuar la zona inmediatamente.</p>
+                <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#noEscapeModal">Iniciar Protocolo de Emergencia</button>
+            </div>
+            <div class="card-footer text-muted">
+                Actualizado hace 2 minutos
+            </div>
+        </div>
+    </div>
+
+    <img src="img/scary.png" alt="scary" class="img-fluid w-25 d-block mx-auto">
+
+    <!-- Modal -->
+    <div class="modal fade" id="noEscapeModal" tabindex="-1" aria-labelledby="noEscapeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title" id="noEscapeModalLabel">Protocolo de Emergencia Fallido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center fs-4">No existe escapatoria alguna.</p>
+                    <p class="text-center">El Pececito Sonriente ha bloqueado todas las rutas de escape.</p>
+                    <img src="img/log.png" alt="logo" class="img-fluid w-25 d-block mx-auto">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
